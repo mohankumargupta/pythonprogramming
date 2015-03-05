@@ -4,18 +4,12 @@
 
 #and
 '''
-print( False and False)
-print( False and True)
-print( True and False)
-print( True and True)
+print('False and False is:', False and False)
+print('False and True is:', False and True)
+print('False and False is:' ,True and False)
+print('False and False is:', True and True)
 '''
 
-'''
-print( 0 and 0)
-print( 0 and 1)
-print( 1 and 0)
-print( 1 and 1)
-'''
 #or
 '''
 print( False or False)
@@ -23,17 +17,45 @@ print( False or True)
 print( True or False)
 print( True or True)
 '''
+
+#not
+'''
+print(not True)
+print(not False)
+'''
+
+a = 6
+b = 7
+c = 42
+print(1, a == 6)
+print(2, a == 7)
+print(3, a == 6 and b == 7)
+print(4, a == 7 and b == 7)
+print(5, not a == 7 and b == 7)
+print(6, a == 7 or b == 7)
+print(7, a == 7 or b == 6)
+print(8, not (a == 7 and b == 6))
+print(9, not a == 7 and b == 6)
+
+
+
+'''
+print( 0 and 0)
+print( 0 and 1)
+
+print( 1 and 0)
+print( 1 and 1)
+'''
+
+
+
 '''
 print( 0 or 0)
 print( 0 or 1)
 print( 1 or 0)
 print( 1 or 1)
 '''
-#not
-'''
-print(not True)
-print(not False)
-'''
+
 
 #evaluate to False
 '''
@@ -54,6 +76,17 @@ print(bool( (1,2,3)   ))
 print(bool(  42   ))
 print(bool(  4.2 ))
 print(bool( -4.2 ))
+'''
+
+#type
+'''
+print(type( ""   ))
+print(type( None ))
+print(type( []   ))
+print(type( ()   ))
+print(type( 0    ))
+print(type( 0.0  ))
+print(type( {'one':1, 'two':2}  ))
 '''
 
 # combination of and, or and not
