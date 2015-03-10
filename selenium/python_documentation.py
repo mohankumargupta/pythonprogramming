@@ -13,11 +13,12 @@ sleep(delay)
 browser.get('https://docs.python.org/3/')
 sleep(delay)
 browser.get('https://docs.python.org/3/tutorial/index.html')
+'''
 for i in range(100,1500, 100):
     sleep(delay/5)
     scrollHeight = "window.scroll(0,{})".format(i)
     browser.execute_script(scrollHeight)
-
+'''
 
 #Python Language Reference (Documentation)
 #what consitutes a valid python program 

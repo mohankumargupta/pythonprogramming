@@ -7,16 +7,16 @@
 '''
 print('False and False is:', False and False)
 print('False and True is:', False and True)
-print('False and False is:' ,True and False)
-print('False and False is:', True and True)
+print('True and False is:' ,True and False)
+print('True and True is:', True and True)
 '''
 
 #or
 '''
-print( False or False)
-print( False or True)
-print( True or False)
-print( True or True)
+print('False or False is:', False or False)
+print('False or True is:', False or True)
+print('True or False is:' , True or False)
+print('True or True is:', True or True)
 '''
 
 #not
@@ -25,6 +25,7 @@ print(not True)
 print(not False)
 '''
 
+'''
 a = 6
 b = 7
 c = 42
@@ -32,21 +33,20 @@ print(1, a == 6)
 print(2, a == 7)
 print(3, a == 6 and b == 7)
 print(4, a == 7 and b == 7)
-print(5, not a == 7 and b == 7)
-print(6, a == 7 or b == 7)
-print(7, a == 7 or b == 6)
-print(8, not (a == 7 and b == 6))
-print(9, not a == 7 and b == 6)
-
-
-
+print(5, a == 7 or b == 7)
+print(6, a == 7 or b == 6)
+print(7, not (a == 7 and b == 6))
+print(8, not a == 7 and b == 6)
 '''
+
+
+
 print( 0 and 0)
 print( 0 and 1)
 
 print( 1 and 0)
 print( 1 and 1)
-'''
+
 
 
 
