@@ -1,12 +1,12 @@
 #find when the next microcontroller meeting is 
 #second Wednesday of every month
-import datetime
 import calendar
 from time import strptime
 
 def nextMeeting(month, year):
 	#firstday: Mon:0 ...  Sun:6
 	month_num = strptime(month,'%b').tm_mon
+	print(month_num)
 	firstday, end = calendar.monthrange(year,month_num)
 	print(firstday,end)
 	if firstday > 2:

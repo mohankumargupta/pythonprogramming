@@ -101,10 +101,18 @@ print(type(False))
 print(type(0))
 print(False is 0)
 print(False is not 0)
+print(False is True)
+print(True is True)
 '''
-
+'''
+print( 5 == 5.0   ) 
+print( type(5)    )
+print( type(5.0)  )
+print( 5 is 5.0   )
+'''
 # in, not_in
 '''
 print(2 in [1,2,3])
 print(5 in [1,2,3])
+print(5 not in [1,2,3])
 '''

@@ -9,10 +9,9 @@ list, tuple, dict
 # 60-second summary
 '''
 1. Everything in python is an object
-3. A python module is a regular python program
+3. A python module is a regular python program (or possibly a C program)
 2. importing a module runs code in that module
-3. importing a module add names to the 
-   current module's namespace
+3. importing a module add names to the current module's namespace
 '''
        
 # IMPORTS .... WTF
@@ -27,7 +26,7 @@ import Rpi.camera as camera
 #-------IMPORT ----------------------------------------------
 
 #TEST 1
-import sendtweet
+#import sendtweet
 
 
 #TEST 2
@@ -86,17 +85,12 @@ print(answer)
 #-----BUILT-IN FUNCTIONS ---------------------------------
 
 
-# ---type---
 
-'''
-type(4)
-type(4.5)
-type("hello")
-type([1,2,3])
-type((1,2,3))
-type(False)
-'''
 
+# built-in data types 
+# numerics: int, float,  
+# sequences, mappings, classes, instances, exceptions
+# https://docs.python.org/3.4/library/stdtypes.html
 '''
 print(type(4))
 print(type(4.5))
