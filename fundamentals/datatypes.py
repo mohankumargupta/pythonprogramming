@@ -1,3 +1,4 @@
+'''
 print(type(4))
 print(type(4.5))
 print(type("hello"))
@@ -6,6 +7,13 @@ print(type((1,2,3)))
 print(type(True))
 print(type({'mohan':'mohangupta@live.com', 'santa':'santa@northpole.com'}))
 print(type({'apple', 'banana', 'orange'}))
+'''
+
+
+'''
+import sys
+print(type(sys))
+'''
 
 '''
 print(5 + 4.5)
@@ -13,7 +21,12 @@ print(type(5))
 print(type(4.5))
 '''
 
+
+#print(type("abc"))
+#print(type(123))
+#print(type(str(123)))
 #print("abc" + 123)
+
 
 '''
 print(float(5) + 4.5)

@@ -3,7 +3,7 @@ from time import sleep
 #from selenium.webdriver.common.keys import Keys
 #from selenium.webdriver.common.by import By
 
-delay = 10
+delay = 5
 
 browser = webdriver.Firefox()
 browser.get('https://www.python.org')
@@ -13,12 +13,12 @@ sleep(delay)
 browser.get('https://docs.python.org/3/')
 sleep(delay)
 browser.get('https://docs.python.org/3/tutorial/index.html')
-'''
-for i in range(100,1500, 100):
-    sleep(delay/5)
+
+for i in range(100,900, 100):
+    sleep(delay/15)
     scrollHeight = "window.scroll(0,{})".format(i)
     browser.execute_script(scrollHeight)
-'''
+
 
 #Python Language Reference (Documentation)
 #what consitutes a valid python program 
