@@ -40,13 +40,13 @@ print(8, not a == 7 and b == 6)
 '''
 
 
-
+'''
 print( 0 and 0)
 print( 0 and 1)
 
 print( 1 and 0)
 print( 1 and 1)
-
+'''
 
 
 
@@ -105,6 +105,16 @@ print(("cat" or "dog") and "elephant")
 print("cat" and "dog" and "elephant")
 '''
 
+'''
+print(True and "dog")
+print(False and "dog")
+print("cat" and True)
+print("cat" and False)
+print(True or "dog")
+print(False or "dog")
+print("cat" or True)
+print("cat" or False)
+'''
 
 '''
 6.10. Boolean operations
